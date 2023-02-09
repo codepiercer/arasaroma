@@ -8,7 +8,7 @@
     "preview": "npm run build && vite preview",
     "lint": "prettier --plugin-search-dir=. . --check && eslint .",
     "lint:fix": "prettier --plugin-search-dir=. . --write && eslint . --fix",
-    "postinstall": "husky install"
+    "husky": "husky install"
   },
   "devDependencies": {
     "@codepiercer/svelte-tailwind": "0.2.9",
