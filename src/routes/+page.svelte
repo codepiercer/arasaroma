@@ -39,7 +39,7 @@
       <img
         transition:slide={{ delay: 1000, duration: 1000 }}
         src="/images/{activeImage}-min.jpg"
-        class="h-screen w-screen object-cover"
+        class="h-screen w-screen object-fill"
         alt=""
       />
     {/if}
