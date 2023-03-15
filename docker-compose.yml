@@ -1,0 +1,13 @@
+services:
+  app:
+    image: jana19/node:18
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: bash
+    tty: true
+    stdin_open: true
+    environment:
+      - PORT=4005
+    ports:
+      - 4005:4005

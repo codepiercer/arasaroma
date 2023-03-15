@@ -2,7 +2,7 @@
   import { onMount } from 'svelte'
   import { fade } from 'svelte/transition'
 
-  const TOTAL_IMAGES = 16
+  const TOTAL_IMAGES = 31
   const IMAGES = new Array(TOTAL_IMAGES).fill(0).map((_, i) => i)
   let activeImage = 0
   let player = null
@@ -11,7 +11,7 @@
   onMount(() => {
     const internal = setInterval(() => {
       activeImage = (activeImage + 1) % TOTAL_IMAGES
-    }, 6000)
+    }, 2000)
     return () => clearInterval(internal)
   })
 
