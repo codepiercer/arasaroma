@@ -1,19 +1,5 @@
 <script>
-  import { onMount } from 'svelte'
-  import { fade } from 'svelte/transition'
-
-  const TOTAL_IMAGES = 31
-  const IMAGES = new Array(TOTAL_IMAGES).fill(0).map((_, i) => i)
-  let activeImage = 0
   let player = null
-
-  // loop through images every 5 seconds and update activeImage
-  onMount(() => {
-    const internal = setInterval(() => {
-      activeImage = (activeImage + 1) % TOTAL_IMAGES
-    }, 2000)
-    return () => clearInterval(internal)
-  })
 
   // on double click, toggle between fullscreen and not
   const goFullscreen = () => {
@@ -36,19 +22,8 @@
   }
 </script>
 
-<audio loop bind:this={player}>
-  <source src="/music.mp3" type="audio/mpeg" />
-</audio>
-
 <button on:click={goFullscreen}>
-  {#each IMAGES as i}
-    {#if i === activeImage}
-      <img
-        transition:fade={{ delay: -500, duration: 1000 }}
-        src="/images/{activeImage}-min.jpg"
-        class="h-screen w-screen object-fill"
-        alt=""
-      />
-    {/if}
-  {/each}
+  <video loop bind:this={player} src="/media.MP4" class="h-screen w-screen">
+    <track kind="captions" />
+  </video>
 </button>
