@@ -23,7 +23,7 @@
 </script>
 
 <button on:click={goFullscreen}>
-  <video loop bind:this={player} src="/video.MP4" class="h-screen w-screen">
+  <video loop bind:this={player} src="/slide.mp4" class="h-screen w-screen">
     <track kind="captions" />
   </video>
 </button>
