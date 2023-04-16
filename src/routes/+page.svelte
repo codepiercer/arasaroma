@@ -23,7 +23,13 @@
 </script>
 
 <button on:click={goFullscreen}>
-  <video loop bind:this={player} src="/slide.mp4" class="h-screen w-screen">
-    <track kind="captions" />
-  </video>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/lMBTyCzuLKc?controls=0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  />
 </button>
