@@ -19,14 +19,14 @@
 
 <main class="relative grid h-full grid-cols-7 overflow-hidden bg-gray-900/70 backdrop-blur-sm">
   <div class="col-span-3 flex flex-col items-center">
-    <div class="-mt-10 flex flex-col items-center p-12">
+    <div class="flex flex-col items-center p-20">
       <div class="flex items-center">
-        <img src="/favicon.jpg" alt="Aras Aroma logo" class="ml-32 h-32 w-32 rounded-3xl" />
-        <img src="/flags.png" alt="Canada and Italy country flags" class="ml-72 w-60" />
+        <img src="/favicon.jpg" alt="Aras Aroma logo" class="ml-16 h-48 w-48 rounded-3xl" />
+        <img src="/flags.png" alt="Canada and Italy country flags" class="ml-96 h-48" />
       </div>
-      <h1 class="-mt-24 p-8 text-center font-[Sign] text-[10rem] font-bold tracking-wider text-white">Aras Aroma</h1>
+      <h1 class="-mt-32 p-8 text-center font-[Sign] text-[16rem] font-bold tracking-wider text-white">Aras Aroma</h1>
 
-      <div class="mb-4 flex gap-4 rounded-lg bg-black/50 p-6 pt-8 text-6xl text-yellow-500">
+      <div class="mb-4 mt-20 flex gap-4 rounded-lg bg-black/50 p-6 pt-8 text-[6.5rem] text-yellow-500">
         <div>Take Out</div>
         |
         <div>Dine In</div>
@@ -35,11 +35,11 @@
         |
         <div>Catering</div>
       </div>
-      <p class="mt-6 rounded-lg bg-black/50 p-4 pt-10 text-8xl text-yellow-400">905-640-6505</p>
-      <p class="mt-20 rounded-lg bg-black/50 p-4 pt-10 text-6xl text-yellow-400">Wed - Mon: 10:30am - 9:30pm</p>
+      <p class="mt-20 rounded-lg bg-black/50 p-12 pt-20 text-[10rem] text-yellow-400">905-640-6505</p>
+      <p class="mt-20 rounded-lg bg-black/50 p-12 pt-16 text-8xl text-yellow-400">Wed - Mon: 10:30am - 9:30pm</p>
     </div>
     <div class="flex-1"></div>
-    <img src="/delivery.png" alt="Delivery partners" class="h-48 pb-4" />
+    <img src="/delivery.png" alt="Delivery partners" class="h-96 pb-4" />
   </div>
   <div class="relative col-span-4 flex h-full flex-col rounded-l-full bg-gray-900/80">
     {#key activeImageIdx}
@@ -60,9 +60,9 @@
       <div
         in:fly={{ duration: 2000, delay: 500 }}
         out:fly={{ duration: 1000 }}
-        class="absolute bottom-8 right-0 h-fit w-fit rounded-lg bg-black/50 p-8 backdrop-blur-sm"
+        class="absolute bottom-0 right-0 h-fit w-fit rounded-lg bg-black/50 p-10 backdrop-blur-sm"
       >
-        <h2 class="text-8xl text-white">{activeImage.alt}</h2>
+        <h2 class="text-[11rem] text-white">{activeImage.alt}</h2>
       </div>
     {/key}
   </div>

@@ -7,7 +7,7 @@
 <style>
   :global(html),
   :global(body) {
-    height: 1080px;
-    width: 2560px;
+    height: 2160px;
+    width: 3840px;
   }
 </style>
