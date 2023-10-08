@@ -1,10 +1,10 @@
 services:
   app:
-    image: jana19/node:18
+    image: node:20
     volumes:
       - .:/app
     working_dir: /app
-    command: bash
+    command: "bash"
     tty: true
     stdin_open: true
     environment:
