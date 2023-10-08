@@ -17,14 +17,14 @@
 
 <img src="/cover.jpg" alt="Variety of food menus in background" class="absolute inset-0 -z-10 h-full w-full object-cover" />
 
-<main class="relative grid h-full grid-cols-7 overflow-hidden bg-gray-900/70 backdrop-blur-sm">
+<main class="relative grid h-full grid-cols-7 overflow-hidden bg-gray-900/80 backdrop-blur-sm">
   <div class="col-span-3 flex flex-col items-center">
     <div class="flex flex-col items-center p-20">
       <div class="flex items-center">
-        <img src="/favicon.jpg" alt="Aras Aroma logo" class="ml-16 h-48 w-48 rounded-3xl" />
-        <img src="/flags.png" alt="Canada and Italy country flags" class="ml-96 h-48" />
+        <img src="/favicon.jpg" alt="Aras Aroma logo" class="ml-32 h-48 w-48 rounded-3xl" />
+        <img src="/flags.png" alt="Canada and Italy country flags" class="ml-[30rem] h-48" />
       </div>
-      <h1 class="-mt-32 p-8 text-center font-[Sign] text-[16rem] font-bold tracking-wider text-white">Aras Aroma</h1>
+      <h1 class="-mt-32 p-8 text-center font-[Sign] text-[17rem] font-extrabold tracking-wider text-white">Aras Aroma</h1>
 
       <div class="mb-4 mt-20 flex gap-4 rounded-lg bg-black/50 p-6 pt-8 text-[6.5rem] text-yellow-500">
         <div>Take Out</div>
