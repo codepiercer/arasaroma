@@ -16,10 +16,6 @@ export const images = [
     alt: `Idly with Chutney & Sambar`
   },
   {
-    src: `chicken_salad.png`,
-    alt: `Chicken Salad`
-  },
-  {
     src: `meatball_pasta.png`,
     alt: `Meatball Pasta`
   },
