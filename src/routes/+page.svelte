@@ -57,7 +57,7 @@
         out:fly={{ duration: 500 }}
         src="/smoke.gif"
         alt="Food smoke effect"
-        class="absolute inset-0 h-full w-full -translate-y-96"
+        class="absolute inset-0 h-full w-full -translate-y-60"
       />
       <div
         in:fly={{ duration: 2000, delay: 500 }}
