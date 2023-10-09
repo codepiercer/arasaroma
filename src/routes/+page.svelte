@@ -18,28 +18,30 @@
 <img src="/cover.jpg" alt="Variety of food menus in background" class="absolute inset-0 -z-10 h-full w-full object-cover" />
 
 <main class="relative grid h-full grid-cols-7 overflow-hidden bg-gray-900/80 backdrop-blur-sm">
-  <div class="col-span-3 flex flex-col items-center">
-    <div class="flex flex-col items-center p-20">
-      <div class="flex items-center">
-        <img src="/favicon.jpg" alt="Aras Aroma logo" class="ml-32 h-48 w-48 rounded-3xl" />
-        <img src="/flags.png" alt="Canada and Italy country flags" class="ml-[30rem] h-48" />
+  <div class="col-span-3 flex flex-col items-center overflow-hidden">
+    <div class="flex flex-col items-center">
+      <div class="flex items-center p-8 pb-12">
+        <img src="/favicon.jpg" alt="Aras Aroma logo" class="ml-24 h-28 w-28 rounded-3xl" />
+        <img src="/flags.png" alt="Canada and Italy country flags" class="ml-60 h-28" />
       </div>
-      <h1 class="-mt-32 p-8 text-center font-[Sign] text-[17rem] font-extrabold tracking-wider text-white">Aras Aroma</h1>
+      <h1 class="-mt-36 p-8 text-center font-[Sign] text-[9rem] font-extrabold tracking-wider text-white">Aras Aroma</h1>
 
-      <div class="mb-4 mt-20 flex gap-4 rounded-lg bg-black/50 p-6 pt-8 text-[6.5rem] text-yellow-500">
-        <div>Take Out</div>
-        |
-        <div>Dine In</div>
-        |
-        <div>Delivery</div>
-        |
-        <div>Catering</div>
+      <div class="flex flex-col items-center justify-center px-2">
+        <div class="mb-4 mt-8 flex gap-4 rounded-lg bg-black/50 p-6 pt-8 text-5xl text-yellow-500">
+          <div>Take Out</div>
+          |
+          <div>Dine In</div>
+          |
+          <div>Delivery</div>
+          |
+          <div>Catering</div>
+        </div>
+        <p class="mt-8 rounded-lg bg-black/50 p-6 pt-12 text-8xl text-yellow-400">905-640-6505</p>
+        <p class="mt-8 rounded-lg bg-black/50 p-6 pt-12 text-5xl text-yellow-400">Wed - Mon: 10:30am - 9:30pm</p>
       </div>
-      <p class="mt-20 rounded-lg bg-black/50 p-12 pt-20 text-[10rem] text-yellow-400">905-640-6505</p>
-      <p class="mt-20 rounded-lg bg-black/50 p-12 pt-16 text-8xl text-yellow-400">Wed - Mon: 10:30am - 9:30pm</p>
     </div>
     <div class="flex-1"></div>
-    <img src="/delivery.png" alt="Delivery partners" class="h-96 pb-4" />
+    <img src="/delivery.png" alt="Delivery partners" class="h-48" />
   </div>
   <div class="relative col-span-4 flex h-full flex-col rounded-l-full bg-gray-900/80">
     {#key activeImageIdx}
@@ -62,7 +64,7 @@
         out:fly={{ duration: 1000 }}
         class="absolute bottom-0 right-0 h-fit w-fit rounded-lg bg-black/50 p-10 backdrop-blur-sm"
       >
-        <h2 class="text-[11rem] text-white">{activeImage.alt}</h2>
+        <h2 class="text-8xl text-white">{activeImage.alt}</h2>
       </div>
     {/key}
   </div>

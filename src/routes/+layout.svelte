@@ -7,7 +7,8 @@
 <style>
   :global(html),
   :global(body) {
-    height: 2160px;
-    width: 3840px;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
   }
 </style>
