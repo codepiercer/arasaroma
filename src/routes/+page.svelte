@@ -37,7 +37,7 @@
           <div>Catering</div>
         </div>
         <p class="mt-8 rounded-lg bg-black/50 p-6 pt-12 text-8xl text-yellow-400">905-640-6505</p>
-        <p class="mt-8 rounded-lg bg-black/50 p-6 pt-12 text-5xl text-yellow-400">Wed - Mon: 10:30am - 9:30pm</p>
+        <p class="mt-8 rounded-lg bg-black/50 p-6 pt-12 text-5xl text-yellow-400">Wed - Mon: 10:00am - 9:30pm</p>
       </div>
     </div>
     <div class="flex-1"></div>

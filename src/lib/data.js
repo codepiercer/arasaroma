@@ -64,10 +64,6 @@ export const images = [
     alt: `Lasagna`
   },
   {
-    src: `pork_dinner.png`,
-    alt: `Pork Dinner`
-  },
-  {
     src: `mutton_biriyani.png`,
     alt: `Mutton Biriyani`
   },
