@@ -48,7 +48,7 @@
       <img
         in:fly={{ x: 500, y: -500, duration: 2000, delay: 500 }}
         out:fly={{ x: 500, y: 500, duration: 3000 }}
-        src={`/menu/` + activeImage.src}
+        src={activeImage.src}
         alt={activeImage.alt}
         class="absolute inset-0 left-6 h-full w-full rounded-full"
       />
